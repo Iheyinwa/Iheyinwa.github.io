@@ -1,0 +1,109 @@
+/* HEADER COMPONENT */
+body{ 
+  background: yellow;
+  text-align: center;
+  overflow: hidden;
+  font-family: cursive;
+}
+#header {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px 0 10px 30px;
+  margin: 0;
+ 
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 15px;
+}
+li {
+  margin-bottom: 5px;
+}
+#main {
+	/* border: 1px solid red; */
+	width: 60%;
+  position: relative;
+  top: 70px;
+  left: 15%;
+	padding: 19px;
+  display: flex;
+  justify-content: space-evenly;
+	text-align: center;
+}
+aside {
+  text-align: center;
+  border: 1px solid green;
+  width: 40%;
+  position: relative;
+  bottom: 10%;
+}
+input{
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
+#section{
+  width: 50%;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.answer {
+  position: relative;
+  top: 20%;
+  right: 5%;
+}
+.choice{
+	position: relative;
+  top: 20%;
+  right: 20%;
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  #main {
+    display: block;
+    width: 100%;
+ }
+ aside{
+   margin-top: 10%;
+ }
+ input{
+   width: 100%;
+ }
+ button{
+   margin: 0;
+ }
+ .choice, .answer{
+   position: relative;
+   bottom: 10%;
+ }
+}
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /* @media only screen and (min-width: 600px) {
+
+ }
+  */
+ /* Medium devices (landscape tablets, 768px and up) */
+ /* @media only screen and (min-width: 768px) {
+
+ } */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /* @media only screen and (min-width: 992px) {
+
+ } */
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ /* @media only screen and (min-width: 1200px) {
+   
+ }  */
